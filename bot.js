@@ -12,7 +12,7 @@ var postMsg = () => {
     console.log(data)
   });
 };
+console.log(postMsg)
 
-
-setInterval(function () { postMsg(); }, 60000 * 60 * 24)
+setInterval(function () { postMsg() }, 60000 * 60 * 24)
 
